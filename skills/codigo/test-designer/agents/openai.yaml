@@ -1,0 +1,14 @@
+interface:
+  display_name: test-designer
+  short_description: Testes derivados de requisitos, riscos e invariantes
+  default_prompt: Use $test-designer para derivar um plano de testes dos requisitos
+    fornecidos, com riscos, resultados esperados e lacunas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

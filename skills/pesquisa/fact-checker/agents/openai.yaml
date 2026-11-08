@@ -1,0 +1,14 @@
+interface:
+  display_name: fact-checker
+  short_description: Verifique alegações com evidência e contexto
+  default_prompt: Use $fact-checker para verificar estas alegações e distinguir evidência,
+    contexto e incerteza.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

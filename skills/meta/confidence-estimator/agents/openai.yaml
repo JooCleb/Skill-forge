@@ -1,0 +1,14 @@
+interface:
+  display_name: confidence-estimator
+  short_description: Estime confiança com evidências rastreáveis
+  default_prompt: Use $confidence-estimator para avaliar a confiança nestas alegações,
+    justificar os graus e indicar o que mudaria a avaliação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

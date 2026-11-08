@@ -1,0 +1,14 @@
+interface:
+  display_name: research-coverage-checker
+  short_description: Avalia cobertura e suficiência de uma pesquisa
+  default_prompt: Use $research-coverage-checker para avaliar se esta pesquisa cobre
+    a pergunta delimitada, mapear evidências e priorizar lacunas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: dependency-mapper
+  short_description: Mapeie precedências, ciclos e bloqueios de tarefas
+  default_prompt: Use $dependency-mapper para mapear as dependências destas tarefas
+    e indicar quais podem começar.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

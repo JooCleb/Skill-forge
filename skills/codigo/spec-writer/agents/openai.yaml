@@ -1,0 +1,14 @@
+interface:
+  display_name: spec-writer
+  short_description: Especificações de software com critérios verificáveis
+  default_prompt: Use $spec-writer para converter minha ideia de software em uma especificação
+    proporcional, com critérios de aceitação rastreáveis e arquitetura inicial justificada.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

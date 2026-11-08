@@ -1,0 +1,15 @@
+interface:
+  display_name: Gerador de Trilhas de Estudo
+  short_description: Prompts do básico ao avançado e instruções de tutor
+  default_prompt: Use $gerar-trilhas-de-estudo para criar uma trilha completa sobre
+    o assunto solicitado, com prompts para chats separados e instruções gerais para
+    o projeto.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

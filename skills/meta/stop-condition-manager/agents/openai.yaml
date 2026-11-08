@@ -1,0 +1,14 @@
+interface:
+  display_name: stop-condition-manager
+  short_description: Defina quando encerrar ou reabrir uma investigação
+  default_prompt: Use $stop-condition-manager para definir critérios de parada e reabertura
+    desta investigação, indicando mínimos, evidências, orçamento e pendências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

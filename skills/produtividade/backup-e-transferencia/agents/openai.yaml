@@ -1,0 +1,15 @@
+interface:
+  display_name: Backup e transferência
+  short_description: Transfira conteúdo completo, corrigido e organizado
+  default_prompt: Use $backup-e-transferencia para transferir todo o conteúdo da origem
+    indicada ao destino que eu informar, corrigindo e organizando sem resumir e integrando
+    ao que já existe.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

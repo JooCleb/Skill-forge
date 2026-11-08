@@ -1,0 +1,14 @@
+interface:
+  display_name: deep-research
+  short_description: Pesquisa aprofundada com síntese crítica rastreável
+  default_prompt: Use $deep-research para investigar minha pergunta delimitada, confrontar
+    evidências e apresentar uma síntese crítica com fontes e limitações.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

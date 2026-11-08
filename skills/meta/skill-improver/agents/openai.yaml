@@ -1,0 +1,14 @@
+interface:
+  display_name: skill-improver
+  short_description: Melhore skills com evidências e regressões
+  default_prompt: Use $skill-improver para melhorar esta skill a partir dos casos
+    fornecidos e comparar a revisão com a versão atual.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,14 @@
+interface:
+  display_name: argument-mapper
+  short_description: Mapeie premissas, conclusões e objeções
+  default_prompt: Use $argument-mapper para reconstruir os argumentos deste texto
+    e distinguir premissas explícitas e inferidas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

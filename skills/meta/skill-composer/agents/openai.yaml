@@ -1,0 +1,14 @@
+interface:
+  display_name: skill-composer
+  short_description: Componha skills com contratos e evidências compatíveis
+  default_prompt: Use $skill-composer para desenhar um fluxo entre as skills indicadas,
+    com entradas, saídas, evidências e recuperação de falhas; não execute as etapas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

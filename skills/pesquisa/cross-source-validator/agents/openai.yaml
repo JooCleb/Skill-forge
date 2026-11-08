@@ -1,0 +1,14 @@
+interface:
+  display_name: Validação entre fontes
+  short_description: Compare origens, independência e compatibilidade
+  default_prompt: Use $cross-source-validator para confrontar estas fontes, rastrear
+    as origens das evidências e avaliar a conclusão.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: reasoning-auditor
+  short_description: Audite inferências com justificativas verificáveis
+  default_prompt: Use $reasoning-auditor para auditar a validade das inferências deste
+    artefato e propor a menor correção sustentada.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

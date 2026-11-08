@@ -1,0 +1,15 @@
+interface:
+  display_name: source-quality-evaluator
+  short_description: Avalie fontes por evidências e critérios explícitos.
+  default_prompt: Use $source-quality-evaluator para avaliar a confiabilidade destas
+    fontes para a alegação e o uso informados, separando qualidade, pertinência e
+    atualidade.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

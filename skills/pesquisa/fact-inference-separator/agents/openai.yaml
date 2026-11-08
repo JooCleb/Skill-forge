@@ -1,0 +1,14 @@
+interface:
+  display_name: fact-inference-separator
+  short_description: Separe fatos, inferências, estimativas e hipóteses
+  default_prompt: Use $fact-inference-separator para classificar as afirmações deste
+    material, indicando origem, premissas e limites.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

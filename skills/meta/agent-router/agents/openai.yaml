@@ -1,0 +1,14 @@
+interface:
+  display_name: agent-router
+  short_description: Escolhe executores reais e define contratos mínimos
+  default_prompt: Use $agent-router para distribuir estas subtarefas entre capacidades
+    disponíveis, justificar as escolhas e definir briefings com fallback sequencial.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

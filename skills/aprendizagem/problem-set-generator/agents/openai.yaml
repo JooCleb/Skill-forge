@@ -1,0 +1,15 @@
+interface:
+  display_name: problem-set-generator
+  short_description: Exercícios progressivos e correção com pistas graduais
+  default_prompt: Use $problem-set-generator para criar seis exercícios progressivos
+    de ponteiros em C, sem respostas, e depois corrigir minhas tentativas com pistas
+    graduais.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

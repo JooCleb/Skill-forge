@@ -1,0 +1,14 @@
+interface:
+  display_name: decision-analyst
+  short_description: Compare alternativas e teste a sensibilidade
+  default_prompt: Use $decision-analyst para comparar estas alternativas, restrições
+    e preferências, mostrando quando a recomendação muda.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

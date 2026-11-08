@@ -1,0 +1,14 @@
+interface:
+  display_name: uncertainty-calibrator
+  short_description: Comunique incertezas com precisão e proporção
+  default_prompt: Use $uncertainty-calibrator para calibrar a conclusão desta análise
+    e comunicar apenas as incertezas materiais com base nas evidências disponíveis.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

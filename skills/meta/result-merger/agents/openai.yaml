@@ -1,0 +1,14 @@
+interface:
+  display_name: result-merger
+  short_description: Consolide entregas com origem e consistência
+  default_prompt: Use $result-merger para combinar estas entregas parciais, preservar
+    contribuições únicas e registrar conflitos e proveniência.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

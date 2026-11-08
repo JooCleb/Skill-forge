@@ -1,0 +1,15 @@
+interface:
+  display_name: intent-extractor
+  short_description: Separe pedido literal, objetivo e interpretações
+  default_prompt: Use $intent-extractor para distinguir o pedido literal, o objetivo
+    confirmado e as interpretações possíveis desta solicitação, indicando o que muda
+    na prática.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

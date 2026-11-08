@@ -1,0 +1,14 @@
+interface:
+  display_name: plan-reviewer
+  short_description: Revise planos existentes com alterações mínimas
+  default_prompt: 'Use $plan-reviewer para avaliar este plano em relação ao objetivo
+    e apontar apenas ajustes justificados: [objetivo, requisitos e plano].'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

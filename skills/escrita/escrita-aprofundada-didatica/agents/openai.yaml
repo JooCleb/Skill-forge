@@ -1,0 +1,14 @@
+interface:
+  display_name: Escrita Aprofundada e Didática
+  short_description: Produz explicações profundas, rigorosas e didáticas
+  default_prompt: Use $escrita-aprofundada-didatica para desenvolver este tema com
+    profundidade, boas fontes e exemplos explicados.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

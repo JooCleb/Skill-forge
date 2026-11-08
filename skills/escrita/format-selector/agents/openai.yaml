@@ -1,0 +1,14 @@
+interface:
+  display_name: format-selector
+  short_description: Escolher formato e estrutura para comunicar ou agir
+  default_prompt: Use $format-selector para escolher o formato deste conteúdo e montar
+    uma estrutura inicial adequada ao leitor e ao meio de entrega.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

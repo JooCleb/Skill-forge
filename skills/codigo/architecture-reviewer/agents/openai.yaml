@@ -1,0 +1,15 @@
+interface:
+  display_name: architecture-reviewer
+  short_description: Revise arquitetura por requisitos e riscos concretos
+  default_prompt: Use $architecture-reviewer para revisar esta arquitetura com base
+    nos requisitos informados, priorizar achados com evidência e comparar melhorias
+    mínimas com seus custos.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

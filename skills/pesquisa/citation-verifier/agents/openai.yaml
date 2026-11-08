@@ -1,0 +1,14 @@
+interface:
+  display_name: citation-verifier
+  short_description: Confira se citações sustentam as afirmações associadas
+  default_prompt: Use $citation-verifier para auditar as citações deste texto e indicar
+    suporte, passagem verificável e correção específica.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

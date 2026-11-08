@@ -1,0 +1,14 @@
+interface:
+  display_name: verification-before-completion
+  short_description: Verifique conclusão com evidências atuais
+  default_prompt: Use $verification-before-completion para verificar se posso declarar
+    esta tarefa concluída com as evidências disponíveis.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

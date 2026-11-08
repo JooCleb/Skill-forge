@@ -1,0 +1,14 @@
+interface:
+  display_name: context-manager
+  short_description: Selecione contexto com restrições e proveniência
+  default_prompt: Use $context-manager para preparar o contexto necessário à próxima
+    etapa, indicando fontes, exclusões e lacunas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

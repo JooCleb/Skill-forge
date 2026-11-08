@@ -1,0 +1,14 @@
+interface:
+  display_name: analogy-generator
+  short_description: Analogias com correspondências e limites explícitos
+  default_prompt: Use $analogy-generator para explicar este conceito por uma analogia,
+    mapear as correspondências e mostrar os limites e um exemplo real.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

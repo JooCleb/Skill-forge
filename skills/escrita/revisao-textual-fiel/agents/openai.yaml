@@ -1,0 +1,14 @@
+interface:
+  display_name: Revisão Textual Fiel
+  short_description: Clareza e concisão sem apagar sua voz
+  default_prompt: Use $revisao-textual-fiel para revisar este texto preservando minha
+    intenção e minha voz.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

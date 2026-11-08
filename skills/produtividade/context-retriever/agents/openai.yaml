@@ -1,0 +1,14 @@
+interface:
+  display_name: context-retriever
+  short_description: Recuperar contexto com fonte, data e versão
+  default_prompt: Use $context-retriever para localizar a decisão anterior indicada
+    e trazer a evidência com fonte, data e versão disponível.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,14 @@
+interface:
+  display_name: quality-gate
+  short_description: Decidir avanço entre etapas por critérios e evidências
+  default_prompt: Use $quality-gate para avaliar esta etapa pelos critérios combinados
+    e indicar quais dependências podem avançar.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

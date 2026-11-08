@@ -1,0 +1,14 @@
+interface:
+  display_name: consistency-checker
+  short_description: Revise coerência interna com evidências rastreáveis
+  default_prompt: Use $consistency-checker para revisar a coerência interna desta
+    entrega, indicando divergências, localizações, impacto e correção ou pendência.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

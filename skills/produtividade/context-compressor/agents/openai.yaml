@@ -1,0 +1,14 @@
+interface:
+  display_name: Context Compressor
+  short_description: Compacta o estado para retomar trabalhos
+  default_prompt: Use $context-compressor para compactar este histórico em até 600
+    palavras, preservando decisões, restrições, evidências e o próximo passo.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

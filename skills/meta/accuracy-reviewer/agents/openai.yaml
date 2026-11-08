@@ -1,0 +1,14 @@
+interface:
+  display_name: accuracy-reviewer
+  short_description: Revise fatos e detalhes técnicos com evidências
+  default_prompt: Use $accuracy-reviewer para auditar a exatidão factual e técnica
+    desta entrega, com correções fundamentadas, alcance e pontos não verificados.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

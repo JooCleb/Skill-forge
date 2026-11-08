@@ -1,0 +1,14 @@
+interface:
+  display_name: tool-selector
+  short_description: Escolha ferramentas suficientes e evite uso sem ganho
+  default_prompt: Use $tool-selector para escolher a capacidade adequada a esta tarefa,
+    comparar alternativas disponíveis e indicar acesso necessário.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

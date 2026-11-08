@@ -1,0 +1,14 @@
+interface:
+  display_name: output-verifier
+  short_description: Confira entregas finais com evidências rastreáveis
+  default_prompt: Use $output-verifier para conferir esta entrega final contra os
+    requisitos vigentes e apresentar a matriz de evidências e a conclusão de prontidão.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

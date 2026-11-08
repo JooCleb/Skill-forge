@@ -1,0 +1,14 @@
+interface:
+  display_name: bug-investigator
+  short_description: Investigue defeitos com hipóteses e evidências
+  default_prompt: Use $bug-investigator para investigar este comportamento incorreto,
+    testar hipóteses e verificar a correção no escopo autorizado.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

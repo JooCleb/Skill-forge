@@ -1,0 +1,14 @@
+interface:
+  display_name: instruction-normalizer
+  short_description: Normalize pedidos preservando intenção e força
+  default_prompt: Use $instruction-normalizer para estruturar este pedido em requisitos
+    rastreáveis, sem ampliar seu escopo.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

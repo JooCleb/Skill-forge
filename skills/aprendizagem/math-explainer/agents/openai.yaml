@@ -1,0 +1,14 @@
+interface:
+  display_name: math-explainer
+  short_description: Entenda fórmulas, derivações, domínios e unidades
+  default_prompt: Use $math-explainer para explicar por que a fórmula funciona, derivá-la
+    passo a passo e interpretar suas condições de aplicação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

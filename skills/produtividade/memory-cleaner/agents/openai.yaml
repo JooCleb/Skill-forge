@@ -1,0 +1,14 @@
+interface:
+  display_name: memory-cleaner
+  short_description: Revise memórias com escopo e alterações verificáveis
+  default_prompt: Use $memory-cleaner para revisar o conjunto de memórias indicado,
+    consolidar redundâncias e apresentar antes/depois dentro da autorização informada.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

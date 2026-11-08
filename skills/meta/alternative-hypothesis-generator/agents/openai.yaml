@@ -1,0 +1,15 @@
+interface:
+  display_name: alternative-hypothesis-generator
+  short_description: Compare hipóteses com previsões e testes discriminativos
+  default_prompt: Use $alternative-hypothesis-generator para propor poucas explicações
+    testáveis para este fenômeno, indicando previsões, testes, critérios de refutação
+    e prioridade.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
