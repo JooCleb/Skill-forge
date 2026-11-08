@@ -1,0 +1,14 @@
+interface:
+  display_name: contradiction-detector
+  short_description: Localize contradições reais com origem e impacto
+  default_prompt: Use $contradiction-detector para procurar contradições nestes materiais,
+    alinhando definições, tempo e condições e citando as origens.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

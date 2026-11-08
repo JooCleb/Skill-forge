@@ -1,0 +1,14 @@
+interface:
+  display_name: reflection-trigger
+  short_description: Sinais objetivos para revisar a estratégia
+  default_prompt: Use $reflection-trigger para definir ou verificar sinais de revisão
+    nesta execução e indicar o próximo passo observável.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

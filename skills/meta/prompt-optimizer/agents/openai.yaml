@@ -1,0 +1,14 @@
+interface:
+  display_name: prompt-optimizer
+  short_description: Revise prompts preservando objetivo e requisitos
+  default_prompt: Use $prompt-optimizer para melhorar o prompt a seguir, preservando
+    seus requisitos e destacando ambiguidades decisivas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

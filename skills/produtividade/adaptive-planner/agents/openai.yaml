@@ -1,0 +1,14 @@
+interface:
+  display_name: adaptive-planner
+  short_description: Replaneje com evidências e preserve trabalho válido
+  default_prompt: Use $adaptive-planner para atualizar meu plano após esta mudança,
+    preservando requisitos e trabalho válido.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

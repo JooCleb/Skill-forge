@@ -1,0 +1,14 @@
+interface:
+  display_name: parallelization-detector
+  short_description: Detectar paralelismo sem conflitos de dados ou estado
+  default_prompt: Use $parallelization-detector para analisar este plano e indicar
+    lotes seguros, dependências, conflitos e consolidação, sem executar as tarefas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

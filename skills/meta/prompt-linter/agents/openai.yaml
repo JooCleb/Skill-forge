@@ -1,0 +1,14 @@
+interface:
+  display_name: prompt-linter
+  short_description: Audite prompts com evidências e correções mínimas
+  default_prompt: Use $prompt-linter para auditar o prompt abaixo e sugerir correções
+    mínimas por severidade, sem executá-lo.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

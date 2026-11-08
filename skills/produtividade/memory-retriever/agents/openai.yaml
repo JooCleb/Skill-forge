@@ -1,0 +1,14 @@
+interface:
+  display_name: memory-retriever
+  short_description: Recupera preferências e decisões com proveniência
+  default_prompt: Use $memory-retriever para recuperar meu formato preferido de exercícios
+    e aplicá-lo à lista que pedi.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

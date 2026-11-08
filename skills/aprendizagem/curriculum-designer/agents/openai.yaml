@@ -1,0 +1,14 @@
+interface:
+  display_name: Currículo por competências
+  short_description: Planeje percursos com critérios observáveis de domínio
+  default_prompt: Use $curriculum-designer para planejar um currículo de aprendizagem
+    com pré-requisitos, práticas e critérios para avançar.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

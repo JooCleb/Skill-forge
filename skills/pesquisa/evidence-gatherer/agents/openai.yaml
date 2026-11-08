@@ -1,0 +1,14 @@
+interface:
+  display_name: evidence-gatherer
+  short_description: Coleta delimitada de evidências rastreáveis
+  default_prompt: Use $evidence-gatherer para reunir a evidência mínima necessária
+    sobre esta questão, com critérios de suporte e refutação, origens e lacunas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

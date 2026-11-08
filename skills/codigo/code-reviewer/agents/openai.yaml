@@ -1,0 +1,14 @@
+interface:
+  display_name: code-reviewer
+  short_description: Revise código e diffs com achados acionáveis
+  default_prompt: Use $code-reviewer para revisar este código ou diff, priorizando
+    defeitos verificáveis e separando suspeitas condicionais.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: memory-writer
+  short_description: Persistir informações duráveis com autorização
+  default_prompt: Use $memory-writer para lembrar que prefiro exercícios sem gabarito
+    inicial, usando somente um mecanismo de persistência disponível e autorizado.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

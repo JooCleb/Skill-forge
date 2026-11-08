@@ -1,0 +1,14 @@
+interface:
+  display_name: multi-agent-coordinator
+  short_description: Coordene agentes com escopo e evidências verificáveis
+  default_prompt: Use $multi-agent-coordinator para coordenar agentes na revisão de
+    módulos independentes e integrar os resultados com evidências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

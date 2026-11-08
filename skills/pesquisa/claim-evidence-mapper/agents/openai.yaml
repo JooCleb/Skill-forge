@@ -1,0 +1,14 @@
+interface:
+  display_name: claim-evidence-mapper
+  short_description: Mapeie alegações, evidências e lacunas de suporte
+  default_prompt: Use $claim-evidence-mapper para mapear as alegações materiais deste
+    relatório às evidências disponíveis, com localizações, limites e pendências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

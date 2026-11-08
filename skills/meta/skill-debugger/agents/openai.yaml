@@ -1,0 +1,14 @@
+interface:
+  display_name: skill-debugger
+  short_description: Diagnostique falhas concretas de skills
+  default_prompt: Use $skill-debugger para diagnosticar esta falha usando entrada,
+    versão, saída e registros disponíveis.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,14 @@
+interface:
+  display_name: instruction-priority-resolver
+  short_description: Resolva conflitos pela autoridade e pelo escopo
+  default_prompt: Use $instruction-priority-resolver para analisar estas instruções
+    conflitantes e indicar a resolução permitida e as pendências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

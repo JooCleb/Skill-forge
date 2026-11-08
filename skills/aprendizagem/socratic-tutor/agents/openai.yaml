@@ -1,0 +1,14 @@
+interface:
+  display_name: socratic-tutor
+  short_description: Aprenda com perguntas e pistas adaptativas
+  default_prompt: Use $socratic-tutor para me ajudar a resolver este problema, com
+    uma pergunta por vez e sem antecipar a solução.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

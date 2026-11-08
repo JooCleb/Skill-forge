@@ -1,0 +1,14 @@
+interface:
+  display_name: automation-designer
+  short_description: Projete automações recorrentes com falhas controladas
+  default_prompt: Use $automation-designer para projetar a automação de um processo
+    manual recorrente, com exceções, custos e piloto verificável.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

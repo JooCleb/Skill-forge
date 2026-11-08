@@ -1,0 +1,14 @@
+interface:
+  display_name: tradeoff-analyzer
+  short_description: Explicite ganhos e perdas entre alternativas
+  default_prompt: Use $tradeoff-analyzer para analisar os ganhos, as perdas e as condições
+    favoráveis das alternativas, sem forçar uma vencedora.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

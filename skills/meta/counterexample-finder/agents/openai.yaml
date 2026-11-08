@@ -1,0 +1,14 @@
+interface:
+  display_name: counterexample-finder
+  short_description: Busque contraexemplos válidos e reproduzíveis
+  default_prompt: Use $counterexample-finder para buscar um caso válido que refute
+    esta propriedade, conferir as premissas e sugerir uma restrição.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

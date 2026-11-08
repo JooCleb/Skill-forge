@@ -1,0 +1,14 @@
+interface:
+  display_name: plan-builder
+  short_description: Planos ordenados com entregas e verificações
+  default_prompt: Use $plan-builder para transformar meu objetivo em um plano ordenado
+    com entregas, dependências e verificações, sem iniciar a execução.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

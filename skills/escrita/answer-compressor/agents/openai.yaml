@@ -1,0 +1,14 @@
+interface:
+  display_name: answer-compressor
+  short_description: Condense respostas preservando condições e ressalvas
+  default_prompt: Use $answer-compressor para reduzir esta resposta à metade, preservando
+    fatos, condições, ressalvas e intenção.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

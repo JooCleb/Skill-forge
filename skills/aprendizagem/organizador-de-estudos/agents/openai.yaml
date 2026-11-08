@@ -1,0 +1,14 @@
+interface:
+  display_name: Organizador de Estudos
+  short_description: Reorganiza ideias sem perder profundidade
+  default_prompt: Use $organizador-de-estudos para reorganizar estas anotações sem
+    perder nenhuma informação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

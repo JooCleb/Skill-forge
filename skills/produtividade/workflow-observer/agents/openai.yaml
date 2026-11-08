@@ -1,0 +1,14 @@
+interface:
+  display_name: workflow-observer
+  short_description: Diagnostique gargalos com registros de execução
+  default_prompt: Use $workflow-observer para analisar estes registros de execução
+    e identificar gargalos, evidências, impacto e hipóteses a testar.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: failure-mode-analysis
+  short_description: Analise falhas, detecção, contenção e recuperação
+  default_prompt: Use $failure-mode-analysis para analisar como este sistema pode
+    falhar antes da mudança planejada, com controles e ações priorizadas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

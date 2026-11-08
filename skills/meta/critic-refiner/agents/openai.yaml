@@ -1,0 +1,14 @@
+interface:
+  display_name: critic-refiner
+  short_description: Refine artefatos com crítica e ciclos limitados
+  default_prompt: 'Use $critic-refiner para refinar esta versão pelos critérios indicados,
+    preservando fatos, condições e voz: [artefato e critérios].'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

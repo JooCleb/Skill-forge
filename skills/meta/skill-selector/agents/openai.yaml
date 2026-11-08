@@ -1,0 +1,14 @@
+interface:
+  display_name: skill-selector
+  short_description: Selecione só as skills que acrescentam capacidade
+  default_prompt: 'Use $skill-selector para escolher o menor conjunto útil de skills
+    para esta tarefa: [objetivo e limites].'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,15 @@
+interface:
+  display_name: Gerador de Prompts de Execução
+  short_description: Transforme objetivos em prompts executáveis por etapa
+  default_prompt: Use $gerar-prompts-de-execucao para transformar meu objetivo em
+    um mapa de trabalho e me entregar o próximo prompt, com materiais necessários,
+    modelo e esforço sugeridos.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

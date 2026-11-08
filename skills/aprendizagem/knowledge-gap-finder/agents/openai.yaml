@@ -1,0 +1,15 @@
+interface:
+  display_name: knowledge-gap-finder
+  short_description: Diagnóstico de lacunas de conteúdo e raciocínio
+  default_prompt: Use $knowledge-gap-finder para identificar lacunas neste material
+    em relação ao público, objetivo e escopo informados, indicando evidências e complementos
+    mínimos.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

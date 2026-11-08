@@ -1,0 +1,14 @@
+interface:
+  display_name: devils-advocate
+  short_description: Construa a melhor objeção sustentável
+  default_prompt: 'Use $devils-advocate para construir a melhor objeção a esta proposta,
+    indicando fundamento, impacto e possível resposta: [proposta e evidências].'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

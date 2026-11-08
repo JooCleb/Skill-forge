@@ -1,0 +1,14 @@
+interface:
+  display_name: workflow-orchestrator
+  short_description: Coordene etapas, dependências e conclusão com evidências
+  default_prompt: Use $workflow-orchestrator para executar este objetivo composto,
+    acompanhar as etapas e verificar a entrega final.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

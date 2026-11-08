@@ -1,0 +1,14 @@
+interface:
+  display_name: next-best-action
+  short_description: Escolha uma próxima ação com critério observável
+  default_prompt: Use $next-best-action para escolher a ação imediata mais útil com
+    base no objetivo, estado atual, dependências e bloqueios informados.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

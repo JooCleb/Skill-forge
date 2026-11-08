@@ -1,0 +1,14 @@
+interface:
+  display_name: recovery-planner
+  short_description: Planeje a retomada após falhas e interrupções
+  default_prompt: Use $recovery-planner para planejar a retomada deste trabalho interrompido,
+    preservando resultados válidos e verificando efeitos já ocorridos.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

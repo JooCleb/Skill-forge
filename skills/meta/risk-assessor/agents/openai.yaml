@@ -1,0 +1,14 @@
+interface:
+  display_name: risk-assessor
+  short_description: Avalie riscos concretos e mitigações proporcionais
+  default_prompt: Use $risk-assessor para avaliar os riscos desta operação, considerando
+    exposição, controles, risco residual e mitigação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

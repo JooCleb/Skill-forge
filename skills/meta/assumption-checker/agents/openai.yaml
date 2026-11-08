@@ -1,0 +1,14 @@
+interface:
+  display_name: assumption-checker
+  short_description: Audite premissas que podem mudar o resultado
+  default_prompt: Use $assumption-checker para auditar as premissas deste plano, priorizar
+    as decisivas e registrar evidências e condições.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

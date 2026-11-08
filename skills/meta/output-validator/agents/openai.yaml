@@ -1,0 +1,14 @@
+interface:
+  display_name: output-validator
+  short_description: Valida artefatos contra contratos explícitos
+  default_prompt: Use $output-validator para validar este artefato contra o contrato
+    fornecido e relatar o estado de cada regra com evidências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

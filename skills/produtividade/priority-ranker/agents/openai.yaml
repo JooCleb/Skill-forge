@@ -1,0 +1,14 @@
+interface:
+  display_name: priority-ranker
+  short_description: Priorize itens por objetivo e dependências
+  default_prompt: Use $priority-ranker para priorizar estes itens pelo objetivo informado,
+    considerando critérios e dependências.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

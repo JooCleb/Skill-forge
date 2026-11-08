@@ -1,0 +1,14 @@
+interface:
+  display_name: skill-evaluator
+  short_description: Avalie ativação, resultados e regressões de skills
+  default_prompt: Use $skill-evaluator para avaliar a skill indicada com casos representativos
+    e evidências, separando qualidade de saída e ativação.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

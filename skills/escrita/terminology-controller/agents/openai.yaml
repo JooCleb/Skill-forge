@@ -1,0 +1,14 @@
+interface:
+  display_name: terminology-controller
+  short_description: Padronize termos e siglas sem alterar conceitos
+  default_prompt: Use $terminology-controller para padronizar a terminologia destes
+    arquivos, preservando distinções conceituais, citações e identificadores.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

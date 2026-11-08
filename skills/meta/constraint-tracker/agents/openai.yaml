@@ -1,0 +1,14 @@
+interface:
+  display_name: constraint-tracker
+  short_description: Rastrear restrições, mudanças e evidências vigentes
+  default_prompt: Use $constraint-tracker para acompanhar as restrições deste trabalho,
+    registrar mudanças e conferir as evidências antes das etapas afetadas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

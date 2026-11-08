@@ -1,0 +1,14 @@
+interface:
+  display_name: workflow-optimizer
+  short_description: Otimize fluxos preservando qualidade e requisitos
+  default_prompt: Use $workflow-optimizer para revisar meu fluxo recorrente, propor
+    um piloto reversível e medir os efeitos sem perder qualidade.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

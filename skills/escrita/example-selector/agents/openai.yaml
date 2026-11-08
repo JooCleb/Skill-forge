@@ -1,0 +1,14 @@
+interface:
+  display_name: example-selector
+  short_description: Escolha exemplos com mecanismo e limites claros
+  default_prompt: Use $example-selector para selecionar ou melhorar os exemplos desta
+    explicação, considerando meus pré-requisitos e indicando o que cada caso mostra.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

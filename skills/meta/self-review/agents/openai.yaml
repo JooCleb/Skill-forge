@@ -1,0 +1,14 @@
+interface:
+  display_name: Autorrevisão final
+  short_description: Revisão breve da própria entrega, quando solicitada
+  default_prompt: Use $self-review para revisar sua entrega antes de apresentá-la,
+    corrigindo problemas materiais e indicando apenas limitações relevantes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: bias-checker
+  short_description: Audite assimetrias em análises e decisões
+  default_prompt: Use $bias-checker para auditar os vieses observáveis deste material
+    e propor correções verificáveis.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

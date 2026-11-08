@@ -1,0 +1,15 @@
+interface:
+  display_name: Transcrição em Texto Natural
+  short_description: Transforme falas em textos naturais, completos e fiéis
+  default_prompt: Use $transcricao-em-texto para transformar esta transcrição em um
+    texto natural, completo e bem organizado, preservando os fatos, as diferentes
+    vozes e as descrições visuais.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

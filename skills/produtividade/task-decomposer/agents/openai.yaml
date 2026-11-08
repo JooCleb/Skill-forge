@@ -1,0 +1,14 @@
+interface:
+  display_name: task-decomposer
+  short_description: Divida objetivos em entregas verificáveis
+  default_prompt: Use $task-decomposer para decompor este objetivo em unidades com
+    entradas, saídas, limites e critérios de aceite, sem executar as subtarefas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

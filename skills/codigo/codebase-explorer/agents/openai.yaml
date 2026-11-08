@@ -1,0 +1,14 @@
+interface:
+  display_name: codebase-explorer
+  short_description: Mapeie arquitetura e fluxos com evidências reais
+  default_prompt: Use $codebase-explorer para mapear este repositório, rastrear seus
+    fluxos centrais e citar os arquivos e símbolos que sustentam a análise.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

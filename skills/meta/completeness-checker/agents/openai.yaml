@@ -1,0 +1,14 @@
+interface:
+  display_name: completeness-checker
+  short_description: Confira cobertura de requisitos e lacunas da entrega
+  default_prompt: Use $completeness-checker para conferir esta entrega contra o pedido
+    e suas alterações autorizadas, apontando evidências e lacunas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
